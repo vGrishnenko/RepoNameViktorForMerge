@@ -1,1 +1,79 @@
+viktor@www:~/RepoNameViktorForLesson19$ git add victor
+viktor@www:~/RepoNameViktorForLesson19$ git commit "victor"
+На ветке main
+Ваша ветка обновлена в соответствии с «origin/main».
 
+нечего коммитить, нет изменений в рабочем каталоге
+viktor@www:~/RepoNameViktorForLesson19$ git push
+Username for 'https://github.com': git push -u github master
+Password for 'https://git push -u github master@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/vGrishnenko/RepoNameViktorForLesson19.git/'
+viktor@www:~/RepoNameViktorForLesson19$ git add victor
+viktor@www:~/RepoNameViktorForLesson19$ git commit "victor"
+На ветке main
+Ваша ветка обновлена в соответствии с «origin/main».
+
+нечего коммитить, нет изменений в рабочем каталоге
+viktor@www:~/RepoNameViktorForLesson19$ git push -u github master
+error: src refspec master does not match any.
+error: не удалось отправить некоторые ссылки в «github»
+viktor@www:~/RepoNameViktorForLesson19$ git push
+Username for 'https://github.com': vGrishnenko
+Password for 'https://vGrishnenko@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/vGrishnenko/RepoNameViktorForLesson19.git/'
+viktor@www:~/RepoNameViktorForLesson19$ git push
+Username for 'https://github.com': vGrishnenko
+Password for 'https://vGrishnenko@github.com': 
+Everything up-to-date
+viktor@www:~/RepoNameViktorForLesson19$ git push origin master
+error: src refspec master does not match any.
+error: не удалось отправить некоторые ссылки в «https://github.com/vGrishnenko/RepoNameViktorForLesson19.git»
+viktor@www:~/RepoNameViktorForLesson19$ git log
+commit c8077368d75045604d61a9d66e1fb5a6ac14c51e (HEAD -> main, origin/main)
+Author: Grishnenko <v17grishnenko@gmail.com>
+Date:   Wed Nov 17 15:53:48 2021 +0200
+
+    testing
+
+commit cd6a1b675a1a6641324175c2744e2cab88ac6b3d
+Author: Grishnenko <v17grishnenko@gmail.com>
+Date:   Wed Nov 17 15:52:30 2021 +0200
+
+    manual
+
+commit 4157f8d07f3966f011ae2a17d0a7f61159a35552
+Author: Grishnenko <v17grishnenko@gmail.com>
+Date:   Wed Nov 17 15:51:22 2021 +0200
+
+    QA
+
+commit f93aeac2ea81b303573137f82d68e0329301d2b0
+Author: Grishnenko <v17grishnenko@gmail.com>
+Date:   Wed Nov 17 15:49:51 2021 +0200
+
+    grishnenko
+viktor@www:~/RepoNameViktorForLesson19$ git push origin main
+Username for 'https://github.com': vGrishnenko
+Password for 'https://vGrishnenko@github.com': 
+Everything up-to-date
+viktor@www:~/RepoNameViktorForLesson19$ git push origin HEAD:master
+Username for 'https://github.com': vGrishnenko
+Password for 'https://vGrishnenko@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/vGrishnenko/RepoNameViktorForLesson19/pull/new/master
+remote: 
+To https://github.com/vGrishnenko/RepoNameViktorForLesson19.git
+ * [new branch]      HEAD -> master
+viktor@www:~/RepoNameViktorForLesson19$ git add victor
+viktor@www:~/RepoNameViktorForLesson19$ git commit -m "victor"
+На ветке main
+Ваша ветка обновлена в соответствии с «origin/main».
+
+нечего коммитить, нет изменений в рабочем каталоге
+viktor@www:~/RepoNameViktorForLesson19$ 
